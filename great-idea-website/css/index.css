@@ -73,7 +73,38 @@ h1, h2, h3, h4, h5 {
 
 
 nav a {
-
+   display: inline-block;
+   margin-right: 50px;
+  text-decoration: none;
+  
 }
 
-nav a:last-child {}
+nav img {
+	margin-left: 80px;
+
+}
+header { 
+	display: inline-block;
+	height: 500px;
+}
+header section {
+	box-sizing: border-box;
+	width: 50%;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 150px;
+	margin-left: 130px;
+	
+}
+button {
+	width: 130px;
+	height: 25px;
+}
+header figure {
+	box-sizing: border-box;
+	width: 50%;
+	
+	margin-left: 500px;
+	position: absolute;
+	top: 90px;
+}
